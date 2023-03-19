@@ -1,1 +1,3 @@
-# supplementary
+# A Dynamic Domain Adaptation Deep Learning Network for EEG-based Motor Imagery Classification
+we provide a Dynamic Domain Adaptation Based Deep Learning Network (DADLNet) for addressing the inter-subject and inter-session variability in MI-BCI. We replace traditional EEG with 3D array and use 3D convolution to learn temporal and spatial features. For the purpose of our model can better capture spatial-temporal information, we add an attention method that spatially combines convolutional channels. Furthermore, we develop a dynamic domain adaptation (DDA) strategy to adapt to the source domain in different scenarios, utilize maximum mean discrepancy (MMD) loss functionto reduce the distance between the source and target domains to achieve the best results.<br><br>
+**The following two folders store the experimental code and experimental results respectively.**
